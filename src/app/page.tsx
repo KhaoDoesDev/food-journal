@@ -142,7 +142,7 @@ export default function App() {
       <div className="absolute top-4 right-4">
         <ThemeToggle />
       </div>
-      <h1 className="text-3xl font-bold mb-2 text-center">Khao's Food Journal</h1>
+      <h1 className="text-3xl font-bold mb-2 text-center">Khao&apos;s Food Journal</h1>
       <p className="mb-8 text-center text-muted-foreground">
         A simple food journal app to help you track your food intake.
       </p>
@@ -451,7 +451,7 @@ export default function App() {
             </ScrollArea>
           ) : (
             <div className="text-center py-8 text-muted-foreground">
-              No entries yet. Click "Add Entry" to get started!
+              No entries yet. Click &quot;Add Entry&quot; to get started!
             </div>
           )}
         </CardContent>
